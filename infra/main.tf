@@ -14,7 +14,7 @@ provider "aws" {
 # terraform.tfstate
 terraform {
   backend "s3" {
-    bucket = "hackathon-fiap-video-tfstate"
+    bucket = "hackathon-fiap-terraform-tfstate"
     key    = "hackathon-fiap-processamento-video.tfstate"
     region = "us-east-1"
   }
