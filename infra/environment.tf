@@ -19,7 +19,7 @@ variable "container_name" {
 variable "image" {
   description = "Imagem do container"
   type        = string
-  default     = "hackathon-fiap-processamento-video"
+  default     = "hackathon-fiap-processamento-video:develop"
 }
 
 variable "cpu" {
